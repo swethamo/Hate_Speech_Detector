@@ -48,7 +48,7 @@ This model is lightweight, efficient, and ready for deployment in production env
    ```
 
 3. **Running the Flask-ML Server**
-   Start the Flask-ML server to serve the model for predictions:
+   Start the Flask-ML server to work with RescueBox for predictions:
 
    ```bash
    python server.py
@@ -66,7 +66,9 @@ This model is lightweight, efficient, and ready for deployment in production env
 
    ![RescueBox Desktop](images/Run_the_model.png)
 
-   Set the Input and Output directory
+   Set the Input and Output directory.
+
+   Input directory should have a txt(s) with a sentence for prediction and an output directory where the json file with the predictions will be outputted.
    
    ![RescueBox Desktop](images/Input_output_dir.png)
 
@@ -94,7 +96,7 @@ This model is lightweight, efficient, and ready for deployment in production env
    
    Dataset used:   [Dataset](https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset)
 
-   Run the `HateSpeech.ipynb` Jupyter notebook to train, save and convert it to onnx format.
+   Run the `HateSpeech.ipynb` Jupyter notebook to train, save and convert it to onnx format. [Reference](https://www.geeksforgeeks.org/hate-speech-detection-using-deep-learning/)
 
    **Steps used to convert to ONNX:**   
    - Install the required dependencies - tensorflow, tf2onnx, and onnxruntime using pip.
