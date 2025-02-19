@@ -36,8 +36,8 @@ This model is lightweight, efficient, and ready for deployment in production env
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/your-username/hate-speech-detection.git
-   cd hate-speech-detection
+   git clone [https://github.com/your-username/hate-speech-detection.git](https://github.com/swethamo/Hate_Speech_Detector.git)
+   cd Hate_Speech_detector
    ```
 
 2. **Install Dependencies:**
