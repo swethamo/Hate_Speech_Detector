@@ -11,15 +11,19 @@ This repository demonstrates how to create, convert, and deploy a Hate Speech De
 - Tokenization: The text is converted into sequences of integers using a pre-trained tokenizer.
 - Prediction: The preprocessed text is fed into the ONNX model, which outputs the predicted class.
 
-This model is lightweight, efficient, and ready for deployment in production environments using frameworks like Flask or ONNX RuntimeThe model is designed to be compatible with the **RescueBox Desktop** application.
+This model is lightweight, efficient, and ready for deployment in production environments using frameworks like Flask or ONNX RuntimeThe model is designed to be compatible with the RescueBox Desktop application.
 
 ## Overview
 
-1. **Model Creation**: A Hate Speech Detection model is trained and saved as `hate_speech_model.keras`.
-2. **ONNX Conversion**: The model is converted to the ONNX format (`hate_speech_model.onnx`) for optimized inference.
-3. **Flask-ML Server**: The ONNX model is uses a Flask-ML server to be compatible with RescueBox
-4. **Command Line Interface (CLI)**: A CLI is provided to test the model on text files and generate predictions in JSON format.
-
+1. **Steps to run the project**
+   1. Installations
+   2. Running the project on RescueBox
+   3. Running the project through the CLI
+      
+2. **ONNX Conversion**
+   1. How to convert a project to ONNX
+   2. Steps to convert this model to ONNX
+      
 ## Getting Started
 
 ### Prerequisites
