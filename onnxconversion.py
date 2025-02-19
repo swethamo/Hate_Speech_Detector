@@ -6,10 +6,9 @@ max_len = 100
 model = tf.keras.models.load_model("hate_speech_model.keras")
 model.output_names = ["output"]
 
-# Define input signature explicitly (batch size=None for dynamic batching)
 spec = (
     tf.TensorSpec(shape=[None, max_len], dtype=tf.float32),
-)  # Ensure max_len is defined
+)  
 
 # Convert the model to ONNX format
 onnx_model, _ = tf2onnx.convert.from_keras(model, input_signature=spec)
