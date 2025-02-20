@@ -1,3 +1,4 @@
+# Converts the .keras model to ONNX format
 import tensorflow as tf
 import tf2onnx
 
