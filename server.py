@@ -1,3 +1,4 @@
+# This python file is used to run the project on Rescue box using Flask-ML and the ONNX model
 from typing import TypedDict
 from pathlib import Path
 from flask_ml.flask_ml_server import MLServer, load_file_as_string
