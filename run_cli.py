@@ -1,3 +1,4 @@
+# This python file is used to run the ONNX model on a Command Line Interface
 import onnxruntime as ort
 import numpy as np
 import argparse
